@@ -18,7 +18,19 @@ This blog was made during the Traversy media Laravel Crash Course. The main obje
 
 ### Prerequisites
 
-To run this project in the development mode, you'll need to have a basic environment 
+To run this project in the development mode, you'll need to have a basic environment with Xampp.
+### Windows
+ - Download and install [Xampp](https://laravel.com/)
+ - Start Apache and MySql server.
+ - git clone https://github.com/sealove20/lsapp.git
+ - Rename .env.example file to .envinside your project root and fill the database information.
+ - Open the console and cd your project root directory
+ - Run `composer install`
+ - Run `yarn install` or `npm install`
+ - Run `php artisan key:generate`
+ - Run `php artisan migrate`
+ - Run `php artisan db:seed`
+ - Run `php artisan serve`
 
 ## Built With
 
